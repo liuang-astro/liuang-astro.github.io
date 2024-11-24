@@ -1,0 +1,111 @@
+body {
+	font-family:"Georgia", sans-serif;
+	font-size: 0.99em;
+	margin: 0;
+	padding: 0;
+	background-color:#CCDDFF;
+    text-align:justify;
+}
+
+.bkg {
+	margin-top: 5px;
+	position: absolute;
+	width: 800px;
+	left: 50%;
+	margin-left: -400px;
+	color: black;
+	background-color:white;
+}
+
+.header {
+	background-image: url(m31.jpg);
+	background-repeat: no-repeat;
+    background-size:100% 100%;
+	height:200px;
+    width:800px;
+	padding-left:0px;
+	padding-top:0px;
+	color: white;
+	border-bottom:1px solid white;
+}
+
+.picture{
+	float:right;
+	width: 120px;
+	margin-right:10px;
+	margin-left:0px;
+	margin-bottom:0px;
+	margin-top:40px;
+	background:transparent;
+}
+
+.picture img{
+    border:none;
+    width:200px;
+    padding-top:0px;
+    }
+
+.center {
+	padding:40px;
+	padding-left:40px;
+    padding-right:40px;
+}
+
+.middlebar{
+	position: absolute;
+    width: 800px;
+    height: 35px;
+	left: 50%;
+	margin-left: -400px;
+    background-color: #552583;
+    border-bottom: 1px solid white
+}
+
+#horizontalmenu ul {
+line-height:35px;
+padding:0;
+ margin:auto; 
+ list-style:none;
+ text-align:center;
+ border-bottom: 0px solid white
+}
+
+#horizontalmenu li {
+float:left; 
+position:relative; 
+padding-right:10px; display:block;
+border:0px solid white;
+padding-left:10px;
+border-right:0px #FFFFFF;
+border-left:1px #FFFFFF;
+border-style:outset;
+text-align:center;
+width:178px;
+}
+
+
+
+a:hover{
+    background-color: white;
+}
+
+address {
+    position: absolute;
+    width: 800px;
+    left: 50%;
+    padding-left: 0px;
+    margin-left: -400px;
+    margin-top:  25px;
+    margin-bottom: 5px;
+    background-color: #552583;
+    border-top: 1px solid black;
+    font-size:  15px;
+    color: white;
+    text-align: center;
+}
+
+.p1{padding-top:0em;text-indent:0;padding-bottom:0em;padding-right:0;text-align:left}
+.p4{padding-top:0.5em;text-indent:0;padding-bottom:0em;padding-right:0;text-align:left}
+.f5{font-family:"Optima", sans-serif;font-size:1.3em;font-weight:700;font-style:normal;text-transform:none;color:black;background-color:initial;line-height:1.1em;letter-spacing:normal;text-shadow:none}
+.p5{padding-top:0;text-indent:0;padding-bottom:0;padding-right:0;text-align:left}
+.f6{font-family:"Optima", sans-serif;font-size:1.1em;font-weight:400;font-style:normal;text-decoration:underline;text-transform:none;color:#404040;background-color:initial;line-height:1em;letter-spacing:normal;text-shadow:none;margin-top:-0.5em;margin-bottom:0.1em}
